@@ -48,6 +48,7 @@ public class SparseArray {
         for (int i=0;i<sparseArr.length;i++){
            System.out.printf("%d\t%d\t%d\t\n",sparseArr[i][0],sparseArr[i][1],sparseArr[i][2]);
         }
+//
         //稀疏数组--》恢复成原始的二维数组
         int chessArr2[][]=new int[sparseArr[0][0]][sparseArr[0][1]];
         for(int i=1;i<sparseArr.length;i++){
